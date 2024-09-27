@@ -1,54 +1,81 @@
-Les ressources rassemblées ici constituent la base de connaissance de l'offre "Cloud Pi Native". Nous proposons 1) une sensibilisation aux enjeux adressés 2) une formation, un apprentissage à la maitrise des ressources proposées 3) une acculturation à l'utilisation du socle via des kits de prise en main. Dans une logique d’amélioration continue, vous pouvez proposer vos commentaires en:
-- Faisant des pulls request sur le repository
+# WIP (work in progress)
+
+Les ressources rassemblées ici constituent une base de connaissances permettre aux équipes clientes de s'autoformer pour acquérir rapidement un maximum d'autonomie sur l'offre cloud native portée par le Ministère de l'Intérieur s'appuyant un environnement du Cloud souverain Pi (offre "Cloud Pi Native"). Dans une logique d’amélioration continue, vous pouvez proposer vos commentaires en:
+- Faisant des pulls request sur le repository 
 - Faisant des issues
 
-# Enjeux de la transformation numérique (sensibilisation)
-### Un "nouveau monde" logiciel a émergé
-Ces 10 dernières années la puissance d'intermédiation du numérique a capté/dévoré une part croissante des activités humaines. Transport, banque, finance, sociabilité, hotellerie, logistique, sécurité, identité, culture, divertissement... deviennent numériques.  Les causes d'un tel changement ne sont pas seulement technologiques: elles ont trait aux organisations, responsabilités, normes (y compris culturelles) de la production numérique. C'est un changement de paradigme complet, un ["nouveau monde logiciel"](https://pi.interieur.rie.gouv.fr/nouveau-monde-logiciel/).
-
-### Le service public est mis au défi
-Dans ce nouveau cadre, certains produits/services deviennent des « normes de fait »: les décisions les concernant, leurs caractéristiques, impactent des millions d'utilisateurs ce qui pose des [défis importants aux organisations publiques](https://github.com/Yoarmi/dso-formation/blob/patch-1/1.3-defi_service_public.md). Pour rester au service de leurs usagers et agents, en particulier sur leurs missions régaliennes, ces dernières doivent s'approprier les moyens techniques, organisationnels (production, opération, maintenance, ...) et les normes techniques ou non-techniques (neutralité, RGPD, accessibilité,...) du "nouveau monde" numérique.
-
-### Un socle pour remettre "l'usager au centre"
-Pour réussir un projet de transformation au service des usagers, la production du numérique public doit être organisée ["en mode produit"](https://6695516.fs1.hubspotusercontent-na1.net/hubfs/6695516/Culture_Produit_Web_Extrait.pdf?__hstc=154216807.d3e24310b08a19eb0fbdb060971025e2.1671555363753.1671555363753.1675700990863.2&__hssc=154216807.2.1675700990863&__hsfp=1771427427&hsCtaTracking=3562120f-8ddc-4973-8c94-6fc9bd6753e2%7C5eb7f077-d1f7-422e-9a12-ab4e2311abe6) (évolutivité, disponibilité) en incluant les développeurs, usagers trop souvent oubliés. La voie que nous privilégions pour cela emprunte aux technologies ["cloud native"](https://github.com/Yoarmi/dso-formation/blob/patch-1/1.2-technologies-cloud-native.md) (conteneurisation/orchestration, API, microservices) et aux approches [DevSecOps](https://github.com/Yoarmi/dso-formation/blob/patch-1/1.1-approche_devsecops.md) (culture de responsabilités partagées). 
-
-Comme expliqué dans le [cadre de cohérence technique Cloud Native (CCT)](https://github.com/dnum-mi/CCT-Cloud-Native), l'offre Cloud Pi Native vise à "industrialiser" cette approche et l'implémenter dans un flux de production continue, intégré et optimisé (lean), suffisament ouvert pour pouvoir évoluer en continu (agile). Cloud Pi Native constitue dont un modèle-socle d'usine logicielle "lean-agile". 
+# Que contient cette section?
+**Une "valise" de ressources d'autoformation** pour accompagner la montée en compétences et embarquer"pas à pas"**. Elle est destinée aux personnes ou organisations souhaitant comprendre et/ou consommer l’offre [Cloud Pi Native](https://dnum-mi.github.io/) du MIOM pour réaliser une transformation de son socle de production vers le "cloud native".
 
 
-# Parcours d'apprentissage (formation)
-Nous souhaitons faciliter l'action de l'ensemble des acteurs désireux de contribuer à la transformation numérique du service public. Pour cela, nous répondons aux questions 1) quels sont les principes directeurs et modèles d'organisations nécessaires à l'utilisation du socle ? 2) Quels sont les prérequis théoriques (concepts) et pratiques pour l'utiliser? 3) Quel est le degré de préparation de mon équipe?
+# Pour quoi faire ?
+- **Pour se former à titre individuel** sur les technologies cloud native en consultant des ressources d'autoformation disponibles à chaque étape (voir le périmètre correspondant à ses responsabilités dans la section "se former à titre individuel");
+- **Pour embarquer une équipe projet/produit** sur l'offre Cloud Pi Native du MIOM en consultant, à chaque étape du parcours, le "mode d'emploi" et la documentation ainsi que les connaissances théoriques et pratiques nécessaires.
 
-### Ecosystème et cadre du socle
-Comme dans toute transformation industrielle découlant d'innovation(s) majeure(s), les responsabilités des acteurs en place sont profondément modifiées. En nous appuyant sur la doctrine [cloud au centre de l'Etat](https://www-lemagit-fr.cdn.ampproject.org/c/s/www.lemagit.fr/actualites/365531732/Cloud-souverain-la-DINUM-contextualise-les-exigences-de-la-France?amp=1), nous proposons un [modèle opérationnel](https://github.com/Yoarmi/dso-formation/blob/patch-1/2-modele_organisation.md) pour comprendre l'articulation des différents périmètres de responsabilité et tirer pleinement parti du socle cloud Pi native. 
+Le parcours comporte 5 étapes, de la prise de connaissance à l'utilisation en autonomie qui correspondent à des degrés de "maturité" croissant (i.e. type de questions que les utilisateurs se posent).
 
-Nous vous invitons à prendre connaissance des principes sous-jacents exposés dans le [cadre de cohérence technique Cloud Pi Native (CCT)](https://github.com/dnum-mi/CCT-Cloud-Native) et à y contribuer. De ces principes découleront les exigences technologiques, organisationnelles, bonnes pratiques, processus... préconisés pour livrer des produits numériques à l'état de l'art et les gérer tout au long de leur cycle de vie.
+![alt_text](images/embarquement-formation.jpg)
 
-### Parcours, par périmètre de responsabilité
-Les parcours d'apprentissage s'adressent aux populations concernées par 4 grands périmètres de responsabilités:
-- « [Qualité des produits numériques](https://github.com/Yoarmi/dso-formation/blob/patch-1/2.1-parcours-produit.md) » : personnes qui élaborent de nouveaux produits numériques et/ou assurent la gestion de leur cycle de vie. Ils sont responsables de leur développement, mise en production, MCO/évolution, migration, etc. Ce sont les développeurs, opérateurs de produits, les architectes solution, … 
-- « [Fiabilité des services & systèmes (SRE)](https://github.com/Yoarmi/dso-formation/blob/patch-1/2.2-parcours_systeme.md) » : personnes qui assurent l’intégrité des services et systèmes nécessaires aux équipes de développement et d'opération des produits numériques, tout au long de leur cycle de vie: pipelines de livraison DevSecOps, services d’hébergement, génération d’environnements, etc. Ce sont les system teams, les équipes d’ingénierie de fiabilité des sites (SRE, Site Reliability Engineering), les forges, les opérateurs de plateformes (IaaS, PaaS, XaaS, ...)...
-- « [Intégrité des projets](https://github.com/Yoarmi/dso-formation/blob/patch-1/2.3-parcours_projet.md) » : personnes qui pilotent les équipes de développement ou de gestion des opérations. Elles sont responsables du cadrage des projets, de la bonne utilisation et du suivi des ressources (humaines et techniques), des orientations à prendre pour la menée d'un projet. Il s'agit des équipes de pilotage/chefferie de projets ou de programmes, de MOE ou d'unités de conception, de bureaux d'étude, etc.
-- « [Pertinence de la décision stratégique](https://github.com/Yoarmi/dso-formation/blob/patch-1/2.4-parcours_strategie.md) » : personnes qui prennent des décisions, se portent garantes de l’engagement des organisations sur des sujets touchant au numérique. Ce périmètre comprend également les personnes chargées de les conseiller quand à la stratégie à adopter, de fournir des recommandations, de délivrer des mandats ou de réaliser des arbitrages concernant les finalités, moyens et modes d’organisation. Il s’agit de la décision stratégique, du pilotage et de la gouvernance des organisations, des directions générales ou des directions de stratégie métiers, achats, RH, etc.
+<details>
 
-### Diagnostic du degré de maturité
-Nous proposons un "diagnostic" de l'appropriation des connaissances et compétences des équipes utilisatrices. En fonction des informations receuillies, ce diagnostic permet de définir la formation et l'accompagnement des équipes, par périmètre de responsabilité, dans l'appropriation du socle et l'appréhension de son contexte (organisationnel et technique).
- 
- 
-# Premier contact avec Cloud Pi Native et prise en main (acculturation)
-Nous pensons que toute personne désireuse de contribuer à la transformation numérique du service public (agent, citoyen, industriel du numérique, représentant d'institutions publiques... ) doit pouvoir rapidement tester le socle et se familliariser avec son utilisation. Pour cela, nous mettons à disposition les souches logicielles et la documentation du socle, mais également des kits de démarrage: tutoriels, formations "hands-on" (par la pratique) et bacs à sable (sandbox). 
+<summary> Voir les hypothèses du parcours </summary>
 
-### Contextes d'utilisation de Cloud Pi Native
-- **Acteurs ministériels**: à terme, l'offre Cloud Pi Native sera consommable depuis le réseau interministériel d'Etat via le [catalogue de services](https://pi.interieur.rie.gouv.fr/home-dnum/cloud-%cf%80/qui-sommes-nous/cloud-native/). Pour l'heure, l'offre Cloud Pi Native est en co-construction en agilité avec ses partenaires-clients et disponible à l'expérimentation via les guides et tutoriels ci-dessous. 
-- **Partenaires industriels et contributeurs open source**: l’offre est mise à disposition en open source pour favoriser l'appropriation des technologies « Cloud Native » et l’émergence de standards du numérique public interopérables avec la production industrielle. Une section *"comment contribuer?"* vous orientera au sein de communautés portées par une même ambition d'innovation et de transformation du service public.
-- **Pour des démarches partenariales structurées**: que vous soyez acteur du service public, industriel ou contributeur de l'Open Source, vous pouvez nous faire part de vos propositions/demandes d'expérimentation via l'adresse cloudpinative-relations@interieur.gouv.fr. Nos équipes accompagnent exclusivement des expérimentations: elles n'examineront et ne répondront à AUCUNE démarche commerciale. 
+- Respect de l'ordre chronologique : le niveau de maturité requis augmente au fur et à mesure des étapes d'embarquement, jusqu'à l'autonomie dans la gestion des évolutions en production;
+- Acessibilité : les premières étapes (comprendre l'offre et préparer un projet) ne nécessitent aucune connaissance théorique ou pratique préalables;
+- Reconnaissance des acquis : plutot que des formations par métiers, dont les intitulés ne correspondent pas toujours à la réalité des missions exercées sur le terrain, nous distingons de façon macroscopique, des périmètres de responsabilités.
 
-L'accompagnement est conditionné à un certains nombre de prérequis, parmi lesquels la nécessité d'avoir consulté et suivi les tutoriels mis à disposition.
+</details>
 
-### Guides et tutoriels
-Afin de tirer le meilleur parti des guides, kit, et outils proposés, nous conseillons de s'être préalablement familiarisé avec les concepts présentés dans parcours de formation. Ceci afin de permettre la prise en main des composantes de l'offre avec tout l'autonomie possible: 
-- [Guide technique » : pour la prise en main du socle technique](https://github.com/dnum-mi/dso-socle);
-- [Guide technique » : pour la prise en main de la console](https://github.com/dnum-mi/dso-console).
-- https://github.com/dnum-mi/gitops-tutorial
+
+# Quelle "maturité" requise pour quelle étape d'embarquement?
+
+Le plan d'embarquement permet d'avancer étape par étape de la découverte à l'utilisation en autonomie: 
+- Pour être guidés dans les questions et critères à valider avant de passer à l'étape suivante, consultez [la checklist](./checklist.md).
+- Vous savoir à quel type d'accompagnement vous etes éligibles, débutez en consultant la [politique d'accompagnement](https://github.com/cloud-pi-native/embarquement-autoformation/blob/main/eligibilite.md).
+
+| | | | | 
+|-|-|-|-|
+|**N° étape**|**Stade d'avancement du projet** |**Ressources et mode d'emploi de cloud Pi Native**|**Si éligible à un accompagnement**|
+|1|Qualifier son besoin, analyser l'opportunité du Cloud Native|Consulter la [page de présentation l'offre](https://dnum-mi.github.io/) et le [support de sensibilisation aux enjeux](./sensibilisation.md)/ spécifier son besoin/ S'assurer du soutien de la démarche (sponsor)|[Décrire son besoin et prendre contact avec le programme Cloud Pi Native](https://www.demarches-simplifiees.fr/commencer/prequalification-cloud-pi-native)/**RDV de préqualification de votre besoin avec l'offre avec l'équipe Adoption** |
+|2|Préparer son projet/produit en "cloud native"|Utiliser le [Cadre de cohérence Technique "Cloud Native"](https://github.com/cloud-pi-native/cct-cloud-native/blob/main/README.md) pour définir son plan projet/évaluer son degré de préparation|Completer  le [formulaire de demande d'accès à la console](https://www.demarches-simplifiees.fr/commencer/cloud-pi-native)/ **RDV de qualification technique avec un tech lead du programme**|
+|3|Lancer un MVP dans un environnement de développement "Cloud native"|Consulter la [documentation de l'offre](https://github.com/cloud-pi-native/documentation)/ s'exercer avec les tutoriels/ provisionner et déployer son environnement de développement "cloud native"|Préparation de l'architecture projet/ **RDV de lancement avec la Service Team**|
+|4|Passer son projet/produit en production, construire dans le respect de normes "Cloud Native"|Consulter la [documentation de l'offre](https://github.com/cloud-pi-native/documentation)/ provisionner et déployer son environnement de production "Cloud native"/ prise en main des outils d'observabilité|S'intégrer aux processus nominaux (demande d'hébergement, homologation, certification, …)/ **Suivi technique avec la service team**|
+|5|Atteindre les meilleurs standards du "Cloud Native", évolution continue|(à venir)|(à venir)|
+
+
+# Valise d'autoformation
+Ces ressources sont non-spécifiques à l’offre, disponibles en appui pour comprendre et utiliser Cloud Pi Native. Elles sotn distinguées selon la nature des responsabilités exercées (voir plus bas) et la "maturité" requise par l'étape d'embarquement ("maturité" = type de questions qui se posent aux utilisateurs). 
+
+## Nature de responsabilités
+Dans sa version actuelle, le plan de formation distingue 3 types d'apprenants en fonction de leur domaine de responsabilités: 
+
+1- **"Réalisation technique"**: équipes techniques responsables de la prise en main de l'offre pour construire, opérer et gérer des produits numériques, tout au long de leur cycle de vie. Directement, pour développer et opérer des produits (équipe DevOps) ou indirectement, pour mettre en place et assurer la fiabilité des systèmes de production nécessaires (SRE, ingéniérie de plateforme) dans un environnement "cloud native".
+
+2- **"Pilotage MOE"**: personnes responsables de la structuration et de la mobilisation d'une équipe projet/produit (compétences, roles, organisation, choix technologiques, ..) son organisation et son suivi (contractuel, budgetaire, UO, livrables, ...), pour saisir les opportunités du paradigme "cloud native".
+
+3- **"Gouvernance/décision"**: personnes responsables de l'orientation de projets numériques vers une offre  de service donnée pour comprendre les spécificités du "nouveau monde logiciel" et les opportunités du paradigme "cloud native". 
+
+<details>
+<summary> Voir les exemples de profils </summary>
+
+- **Réalisation technique**: responsables de la qualité des produits/SI. Selon la taille et de l'organisation, ce périmètre peut recouvrir des personnes responsables de la fiabilité des services & des systèmes (plateformes de services, pipelines de livraison DevSecOps, services d’hébergement, environnements, réseaux, etc.). Exemples: développeurs, opérateurs, DevOps, SRE, architectes solution, etc.
+- **Pilotage MOE**: responsables de l'intégrité des équipes assurant le développement ou les opérations sur les produits et de l'intégrité des projets (cadrage, bonne utilisation et suivi des ressources, orientations techniques...). Exemples:  pilotage/chefferie de projets/programmes, responsables d'unités de conception, de bureaux d'étude, MOE, etc.
+- **Gouvernance/décisionnaire**: responsables de la pertinence des décisions stratégiques ce qui recouvre, plus largement, les personnes chargées de les conseiller. Exemples: pilotage et gouvernance des organisations, directions générales ou métiers, stratégie d'achat, stratégie RH, etc.
+</details>
+
+## Ressources d'autoformation, par nature de responsabilités, par étape
+
+
+| | | | | |
+|-|-|-|-|-|
+|**N° étape**|**Maturité de l'équipe**|**Ressources d'autoformation Périmètre décision/stratégie**|**Ressources d'autoformation Périmètre pilotage MOE**|**Ressources d'autoformation Périmètre  réalisation technique (produit ou système de production)**|
+|1|[Quels sont les enjeux/risques des mutations du numérique et en quoi suis-je concerné?](./sensibilisation.md)  |Comprendre les enjeux du "nouveau monde logiciel" pour la transformation du numérique public|Opportunités du "nouveau monde numérique" : technologies "cloud native", méthodologies, approches et mode d'organisation, culture...|Opportunité d'un socle de production à l'état de l'art "Cloud Native" pour le développement et la gestion de produits numériques|
+|2|[Comment comprendre les concepts derrière le "cloud native" et comment m'en saisir à mon niveau?](./formation_step2.md)|Comprendre comment les grands acteurs du numériques/grandes organisations ont tirés parti des nouvelles opportunités|Comprendre les technologies portées par le cloud native (orchestration et conteneurisation)|Comprendre les différents services d'un socle de production Cloud Native à chaque étape du cycle de vie d'un produit|
+|3|[Comment me préparer, à mon niveau de responsabilité, pour mettre en place une offre cloud native?](./formation_step3.md)|Mesurer l'impact de ces nouvelles opportunités sur les organisations produisant du numérique (stratégie, financement, gouvernance budgétaire, programmation, ...) |Organiser et préparer une équipe produit pour mettre en place et utiliser des outils "cloud native" (contractualisation, provisionnement, compétences, ...) |Réaliser un premier "hello world", puis construire un MVP avec un socle de production Cloud Native|
+|4|[Comment réaliser le potentiel du cloud native, à quoi m'engage le respect des différentes normes (techniques, organisationelles, etc.)?](./formation_step4.md) |Assurer la qualité et la sécurité au niveau des organisations dans le "nouveau monde logiciel" (zero-trust)|S'organiser pour concevoir et gérer des produits de A à Z dans un cadre Cloud Native (sécurité k8s)|Déployer en production, puis mettre en service un produit cloud native|
+|5|[Comment garantir, en évolution permanente, l'intégration/pérénnité des bonnes pratiques et la maitrise des standards?](./formation_step5.md) |Manager un patrimoine numérique pour rester autonome et performant sur la durée (anti patterns, organisation en mode produit et cloud-agile)|Tirer le plein potentiel et contribuer aux technologies du CNCF Landscape (dont charts helms/operators)|Assurer la disponibilité et la continuité, MCO/MCS, garder des options ouvertes sur les transitions futures|
+
+
 
 
 
